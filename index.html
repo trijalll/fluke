@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnFluke</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="nav__logo">
+          <a href=""><img src="assets/logo.png" alt="" /></a>
+        </div>
+        <div class="nav__content">
+          <a href="">
+            <div class="nav__bell">
+              <img src="assets/bell.png" alt="" />
+              <i class="ri-arrow-down-s-fill"></i>
+            </div>
+          </a>
+          <a href="">
+            <div class="nav__coin">
+              <img src="assets/coin.jpeg" alt="" />
+              <p>0</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="nav__dp__container">
+              <div class="nav__dp"></div>
+              <i class="ri-arrow-down-s-fill"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="navbarMenu">
+        <a href="">
+          <i class="ri-layout-grid-fill"></i>
+          Leader Board
+        </a>
+        <a href="">Historical Trading <i class="ri-arrow-down-s-fill"></i></a>
+        <a href="">Historical Chart</a>
+        <a href="">Scanner</a>
+        <a href="">Alerts</a>
+        <a href="">Basic Backtest</a>
+        <a href="">Advanced Backtest</a>
+        <a href="">Pricing</a>
+        <a href="">My Earnings</a>
+      </div>
+      <div class="home__tittle">
+        <div class="tittle__left">
+          <h2>LeaderBoard</h2>
+          <p>View prospect score on shared activities</p>
+        </div>
+        <div class="tittle__right">
+          <a href="">Filter LeaderBoard</a>
+        </div>
+      </div>
+      <div class="home__cardSection">
+        <div class="home__cards">
+          <div class="home__card" id="firstCard">
+            <div class="card1__button">
+              <i class="ri-arrow-up-line"></i>
+              <p>78.65</p>
+            </div>
+            <div class="card__cont" id="firstCard">
+              <h5>$3,256</h5>
+              <p>Earning</p>
+            </div>
+          </div>
+          <div class="home__card">
+            <div class="card2__button">
+              <i class="ri-arrow-down-line"></i>
+              <p>21.5%</p>
+            </div>
+            <div class="card__cont">
+              <h5>$389</h5>
+              <p>Expense</p>
+            </div>
+          </div>
+          <div class="home__card">
+            <div class="card3__button">
+              <i class="ri-arrow-up-line"></i>
+              <p>13.7%</p>
+            </div>
+            <div class="card__cont">
+              <h5>35.8k</h5>
+              <p>Total Visitors</p>
+            </div>
+          </div>
+          <div class="home__card">
+            <div class="card4__button">
+              <i class="ri-arrow-up-line"></i>
+              <p>44.3%</p>
+            </div>
+            <div class="card__cont">
+              <h5>78.6k</h5>
+              <p>Total Customers</p>
+            </div>
+          </div>
+        </div>
+        <div class="home__graph">
+          <div class="home__graph__image"></div>
+        </div>
+      </div>
+      <div class="home__leaderBoard__container">
+        <div class="home__leaderBoard">
+          <div class="leaderBoard__tittle">
+            <div class="leaderBoard__tittle__left">
+              <p>Basic Backtest</p>
+            </div>
+            <div class="leaderBoard__tittle__right">
+              <div class="leaderBoard__button">
+                <div class="leaderBoard__button__left">
+                  <p>Slippage</p>
+                  <select name="option" id="options">
+                    <option value="zero">0%</option>
+                    <option value="pointFive">0.5%</option>
+                    <option value="one">1%</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="leaderBoard__heading">
+            <div class="rank">Rank</div>
+            <div class="name">Name</div>
+            <div class="calmerRatio">Clamer Ratio</div>
+            <div class="overallProfit">Overall Profit</div>
+            <div class="avgProfit">Avg. Daily Profit</div>
+            <div class="win">Win %(Day)</div>
+            <div class="price">Price (Rs)</div>
+            <div class="action">Action</div>
+          </div>
+          <div class="leaderBoard__data">
+            <div class="dataRow">
+              <div class="rank">1</div>
+              <div class="name">Based on premium and</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                2.02
+              </div>
+              <div class="overallProfit">194096.05</div>
+              <div class="avgProfit">158.45</div>
+              <div class="win">0.62</div>
+              <div class="price">-</div>
+              <div class="action"><a href="">View</a></div>
+            </div>
+            <div class="dataRow">
+              <div class="rank">2</div>
+              <div class="name">strategy_name</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                1.98
+              </div>
+              <div class="overallProfit">171862.74</div>
+              <div class="avgProfit">138.26</div>
+              <div class="win">0.6</div>
+              <div class="price">500</div>
+              <div class="action"><a href="">Buy</a></div>
+            </div>
+            <div class="dataRow">
+              <div class="rank">3</div>
+              <div class="name">strategy_name</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                1.75
+              </div>
+              <div class="overallProfit">264090.37</div>
+              <div class="avgProfit">216.11</div>
+              <div class="win">0.64</div>
+              <div class="price">-</div>
+              <div class="action"><a href="">View</a></div>
+            </div>
+            <div class="dataRow">
+              <div class="rank">4</div>
+              <div class="name">strategy_name</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                1.75
+              </div>
+              <div class="overallProfit">264090.37</div>
+              <div class="avgProfit">216.11</div>
+              <div class="win">0.64</div>
+              <div class="price">-</div>
+              <div class="action"><a href="">View</a></div>
+            </div>
+            <div class="dataRow">
+              <div class="rank">5</div>
+              <div class="name">Wait and trade_Save</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                1.62
+              </div>
+              <div class="overallProfit">124537.84</div>
+              <div class="avgProfit">113.11</div>
+              <div class="win">0.61</div>
+              <div class="price">-</div>
+              <div class="action"><a href="">View</a></div>
+            </div>
+            <div class="dataRow">
+              <div class="rank">6</div>
+              <div class="name">Based on premium wit</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                1.155
+              </div>
+              <div class="overallProfit">99916.32</div>
+              <div class="avgProfit">136.5</div>
+              <div class="win">0.48</div>
+              <div class="price">-</div>
+              <div class="action"><a href="">View</a></div>
+            </div>
+            <div class="dataRow">
+              <div class="rank">7</div>
+              <div class="name">Selling with re entr</div>
+              <div class="calmerRatioNew">
+                <svg
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="green"
+                  class="w-5 h-5 mr-1"
+                  style="width: 20px"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                  ></path>
+                </svg>
+                1.38
+              </div>
+              <div class="overallProfit">254470.35</div>
+              <div class="avgProfit">212.95</div>
+              <div class="win">0.63</div>
+              <div class="price">-</div>
+              <div class="action"><a href="">View</a></div>
+            </div>
+          </div>
+          <div class="dataRow">
+            <div class="rank">8</div>
+            <div class="name">iron condor</div>
+            <div class="calmerRatioNew">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="green"
+                class="w-5 h-5 mr-1"
+                style="width: 20px"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                ></path>
+              </svg>
+              1.31
+            </div>
+            <div class="overallProfit">132699.25</div>
+            <div class="avgProfit">103.43</div>
+            <div class="win">0.63</div>
+            <div class="price">-</div>
+            <div class="action"><a href="">View</a></div>
+          </div>
+          <div class="dataRow">
+            <div class="rank">9</div>
+            <div class="name">strategy_name</div>
+            <div class="calmerRatioNew">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="green"
+                class="w-5 h-5 mr-1"
+                style="width: 20px"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                ></path>
+              </svg>
+              1.12
+            </div>
+            <div class="overallProfit">136226.09</div>
+            <div class="avgProfit">111.11</div>
+            <div class="win">0.58</div>
+            <div class="price">-</div>
+            <div class="action"><a href="">View</a></div>
+          </div>
+          <div class="dataRow">
+            <div class="rank">10</div>
+            <div class="name">strategy_name</div>
+            <div class="calmerRatioNew">
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="green"
+                class="w-5 h-5 mr-1"
+                style="width: 20px"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"
+                ></path>
+              </svg>
+              1.11
+            </div>
+            <div class="overallProfit">260759.53</div>
+            <div class="avgProfit">175.71</div>
+            <div class="win">0.35</div>
+            <div class="price">-</div>
+            <div class="action"><a href="">View</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
